@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新增題目</title>
+<style type="text/css">
+table tr td {
+background-color: #cfc;
+padding: 10px;
+}
+div {
+margin: 100px auto;
+background-color: #ffc;
+width: 400px;
+padding: 50px 100px;
+border: dotted green 5px;
+}
+</style>
+</head>
+
+<body>
+<form id="f1" name ="f1" action="insert_tf.php" method="post">
+<div align="center">
+<h2>~ 新增題目 ~</h2>
+<table cellpadding="5">
+<tr><td colspan="2" align="center">step 2</td></tr>
+<tr><td align="right">題目:</td>
+<td align="left">
+<textarea name="question" cols="30" rows="6">請輸入題目</textarea>
+</td></tr>
+<tr><td align="right">正解: </td><td align="left">
+<input type="radio" name="answer" value="true">True</br>
+<input type="radio" name="answer" value="false">False
+</td></tr>
+<tr><td colspan="2" align="center">
+<input type="button" value="上一步" onClick="window.location='http://localhost/project_try/insert_type.html'"><input type="submit" value="完成"><input type="reset" value="取消"></td></tr>
+</table>
+</div>
+</body>
+</html>
