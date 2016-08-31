@@ -5,9 +5,7 @@
     $seldb = @mysql_select_db("irsdb");
     if(!$seldb) {
         die(" 資料庫選擇失敗");
-    }// else {
-       // echo "資料庫選擇成功";
-    //}
+    }
     $isLogin = false;
             
     if(isset($_POST["id"]) && isset($_POST["pwd"])) {
@@ -28,10 +26,3 @@
             echo "fail";
         }
 ?>
-
-<h1>Login Form</h1><hr />
-<form method="post" >
-User Name: <input type="text" name="id"><br />
-Password : <input type="password" name="pwd"><br />
-<input type="submit">
-</form>
