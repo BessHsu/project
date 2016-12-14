@@ -8,13 +8,13 @@ $b=$_SESSION['uID'];
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>課程主頁</title>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 
-<body>
-<?php 
-echo $_SESSION['nickname'];
-?>你好!
-<p><a href="logout.php">登出</a></p>
+<body style="font-size:18px;">
+<p style="float:left;"><?php echo $_SESSION['nickname'];?>你好!</p>
+<p style="float:right;"><a href="logout.php">登出</a></p>
+<p style="clear:both;"></p>
 <p>我的課程 [<a href='questionbank.php?mid=",$rs['id'],"'>我的題庫總攬</a>]<p>
 <hr />
 <p><a href='newClass.php?'>新增課程</a></p>

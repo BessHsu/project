@@ -52,19 +52,22 @@ if(isset( $_POST['id'])){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>登入</title>
-<style type="text/css">
-
-</style>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 
 <body>
 
-<h1>Login Form</h1><hr />
 <form method="post" action="login.php">
-User Name: <input type="text" name="id"><br />
-Password : <input type="password" name="pwd"><br />
-<input type="submit" value="登入">
+<div align="center">
+<h2>登入介面</h2>
+<table cellpadding="5">
+<tr><td>User Name: </td>
+<td><input type="text" name="id" autofocus required></td></tr>
+<tr><td>Password : </td>
+<td><input type="password" name="pwd" required></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" value="登入"></td></tr>
+</table>
+</div>
 </form>
-
 </body>
 </html>

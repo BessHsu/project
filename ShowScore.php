@@ -28,11 +28,9 @@ while ( $rs=mysqli_fetch_array($results)) {
 </head>
 
 <body>
-<?php 
-echo $_SESSION['nickname'];
-?>你好!
-
-
+<p style="float:left;"><?php echo $_SESSION['nickname'];?>你好!</p>
+<p style="float:right;"><a href="logout.php">登出</a></p>
+<p style="clear:both;"></p>
 <h3><a href="teacherlist.php">課程一覽表</a>&nbsp>&nbsp
 <a href="quiz_all.php?courseid=<?php echo $courseid;?>">科目:<?php echo $coursename;?>測驗一覽表</a>&nbsp>&nbsp
 測驗名稱:<?php echo $testname;?>

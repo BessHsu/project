@@ -1,0 +1,26 @@
+body{
+	background-image: url("white.png");
+}
+td {
+	background-color: White;
+	padding: 10px;
+}
+div {
+	height: 250px;
+	width: 400px;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	
+	margin-top: -175px;
+	margin-left: -300px;
+	padding: 50px 100px;
+	
+	border-style: solid;
+	background-color: White;
+	border-color: WhiteSmoke LightGray DarkGray LightGray;
+}
+th {
+	background-color: PowderBlue;
+}

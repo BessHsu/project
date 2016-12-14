@@ -20,10 +20,9 @@ while( $rs_b=mysqli_fetch_array($results_b)) {
 </head>
 
 <body>
-<?php 
-echo $_SESSION['nickname'];
-?>你好!
-
+<p style="float:left;"><?php echo $_SESSION['nickname'];?>你好!</p>
+<p style="float:right;"><a href="logout.php">登出</a></p>
+<p style="clear:both;"></p>
 <h3><a href="questionbank.php">題庫一覽表</a>&nbsp>&nbsp
 科目:<a href="try.php?mid=<?php echo $c;?>"><?php echo $_SESSION['coursename'];?></a>&nbsp>&nbsp
 單元名稱:<?php echo $sec;?>

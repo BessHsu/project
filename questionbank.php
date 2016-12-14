@@ -9,10 +9,9 @@ require("config.php");
 </head>
 
 <body>
-<?php 
-echo $_SESSION['nickname'];
-?>你好!
-<p><a href="logout.php">登出</a></p>
+<p style="float:left;"><?php echo $_SESSION['nickname'];?>你好!</p>
+<p style="float:right;"><a href="logout.php">登出</a></p>
+<p style="clear:both;"></p>
 <p>我的題庫一覽表 [<a href='teacherlist.php?mid=",$rs['id'],"'>我的課程</a>]<p>
 <hr />
 <p><a href='addsubject.php?mid=",$rs['id'],"'>新增科目</a></p>
