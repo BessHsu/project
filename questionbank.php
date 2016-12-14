@@ -6,6 +6,7 @@ require("config.php");
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>題庫總覽</title>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 
 <body>

@@ -11,7 +11,7 @@ $b=$_SESSION['uID'];
 <link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 
-<body style="font-size:18px;">
+<body>
 <p style="float:left;"><?php echo $_SESSION['nickname'];?>你好!</p>
 <p style="float:right;"><a href="logout.php">登出</a></p>
 <p style="clear:both;"></p>

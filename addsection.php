@@ -9,19 +9,7 @@ $c = $_SESSION['coursename'];//科目名稱
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>新增單元-step1</title>
-<style type="text/css">
-table tr td {
-background-color: #cfc;
-padding: 10px;
-}
-div {
-margin: 100px auto;
-background-color: #ffc;
-width: 400px;
-padding: 50px 100px;
-border: dotted green 5px;
-}
-</style>
+<link rel="stylesheet" href="mystyle1.css" type="text/css">
 </head>
 <body>
 <?php 

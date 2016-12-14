@@ -21,15 +21,14 @@ border: dotted green 5px;
 }
 
 </style>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 
 <body>
-<?php 
-echo $_SESSION['nickname'];
-?>你好!
+<p style="float:left;"><?php echo $_SESSION['nickname'];?>你好!</p>
+<p style="float:right;"><a href="logout.php">登出</a></p>
+<p style="clear:both;"></p>
 <h1>填寫課程</h1>
-<p><a href="logout.php">登出</a>
-&nbsp&nbsp
 <a href='teacherlist.php?mid="$userid"'>我的課程</a>
 </p>
 <hr />
@@ -43,7 +42,7 @@ echo $_SESSION['nickname'];
 <tr><td>課程三 : </td><td><input type="text" name="course3"></td></tr>
 <tr><td>課程四 : </td><td><input type="text" name="course4"></td></tr>
 <tr><td>課程五 : </td><td><input type="text" name="course5"></td></tr>
-<tr><<td colspan="2" align="center"><input type="submit" value="提交"></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" value="提交"></td></tr>
 </table>
 </form>
 

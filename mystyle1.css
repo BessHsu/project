@@ -1,15 +1,8 @@
 body{
 background-image: url("white.png");
+font-size: 20px;
 }
 table tr td {
-background-color: PowderBlue;
+background-color: White;
 padding: 10px;
-}
-div {
-width: 400px;
-margin: 100px auto;
-padding: 50px 100px;
-border-style: solid;
-background-color: WhiteSmoke;
-border-color: WhiteSmoke LightGray DarkGray LightGray;
 }

@@ -17,6 +17,7 @@ while( $rs_b=mysqli_fetch_array($results_b)) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php echo $c;?>之<?php echo $sec;?>題庫總覽</title>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 
 <body>

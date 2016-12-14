@@ -32,16 +32,8 @@ $(document).ready(function(){
    });
 });
 </script>
-<style type="text/css">
-dl,dd,dt,ul,li{ margin:0; padding:0; list-style:none;}
-#wenzhang{ width:500px; text-align:center; font-size:12px;border-left:1px solid #dedede;border-right:1px solid #dedede; border-bottom:1px solid #dedede;}
-#wenzhang  dd dl dt{ border-top:1px solid #dedede; background:#f2f2f2; height:25px; line-height:25px; font-weight:bold;}
-#wenzhang ul li{border-top:1px solid #efefef; line-height:25px; background:#f9f9f9;}
-body {
- margin-left: 0px;
- margin-top: 0px;
-}
-</style>
+
+<link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 <body>
 <?php 

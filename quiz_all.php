@@ -60,6 +60,7 @@ while ( $rs=mysqli_fetch_array($results)) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php echo $tmp;?>測驗總覽</title>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
 </head>
 
 <body>
@@ -74,7 +75,7 @@ while ( $rs=mysqli_fetch_array($results)) {
 -->
 <br />
 <hr />
-<table width="400" border="1">
+<table width="800" border="1">
 <tr>
 <td>編號</td>
 <td>測驗名稱</td>
